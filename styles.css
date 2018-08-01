@@ -58,6 +58,7 @@ html, body {
 /*About Page*/
 
 .section#aboutpage {
+	padding: 0px;
 	padding-top: 30px;
 }
 
@@ -112,10 +113,17 @@ html, body {
 
 .row {
 	display: table;
+	padding: 10px;
+	border-collapse: separate;
+  	border-spacing: 10px;
+  	margin: auto;
+  	width: calc((100% - 60px));
+  	height: calc((100% - 60px));
 }
 
 .column {
 	display: table-cell;
     background-color: red;
+    padding: 30px;
 }
 
