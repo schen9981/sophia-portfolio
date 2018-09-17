@@ -5,7 +5,7 @@ html, body {
 /*Home Page*/
 
 .section#homepage {
-	background: url(images/mountains.png) no-repeat center center fixed; 
+	background: url(images/mountains.png) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -19,7 +19,7 @@ html, body {
 #name {
 	font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
 	color: #05042e;
-  	text-shadow: 4px 4px 3px rgba(0,0,0,0.2); 
+  	text-shadow: 4px 4px 3px rgba(0,0,0,0.2);
 	margin-top: 0px;
 	margin-bottom: 0px;
 	display: none;
@@ -31,11 +31,20 @@ html, body {
 	margin-right: 40px;
 }
 
-#email {
+#medium {
 	display: inline-block;
 	width: 3%;
 	height: auto;
 	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: -5px;
+}
+
+#email {
+	display: inline-block;
+	width: 3%;
+	height: auto;
+	margin-left: 37px;
 	margin-right: 40px;
 	margin-bottom: -3px;
 }
@@ -84,7 +93,7 @@ html, body {
 	margin-top: 45px;
 	margin-bottom: 45px;
 	color: #412269;
-	text-shadow: 4px 4px 3px rgba(0,0,0,0.2); 
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.2);
 }
 
 .info {
@@ -108,7 +117,7 @@ html, body {
 	margin-top: 45px;
 	margin-bottom: 45px;
 	color: #412269;
-	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
 .row {
@@ -126,4 +135,3 @@ html, body {
     background-color: red;
     padding: 30px;
 }
-
