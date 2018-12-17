@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=News+Cycle");
+@import url("https://fonts.googleapis.com/css?family=Cookie");
+@import url("https://use.fontawesome.com/releases/v5.6.0/css/all.css");
+
+.masthead {
+  background: url("./img/mountains.png") !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100vh;
+}
+
+.masthead h1 {
+  font: 100 7em/1.2 'Cookie', Helvetica, sans-serif !important;
+  color: #05042e;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.2);
+}
+
+header.container {
+  position: relative;
+  //margin-top: auto !important;
+  //margin-bottom: auto !important;
+  font-family: 'News Cycle', sans-serif !important;
+  vertical-align: middle;
+}
+
+.name-content {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 100vw;
+  transform: translate(-50%,-50%);
+  .mb-5 {
+    margin-bottom: 0 !important;
+  }
+}
+
+
+.header.far.fa-envelope {
+  line-height: inherit;
+  color: #050030;
+  margin-right: 1.5vw;
+  margin-left: 2vw;
+  font-size: 2rem;
+}
+
+.header.fab.fa-github {
+  line-height: inherit;
+  color: #050030;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  font-size: 2rem;
+}
+
+.header.fab.fa-linkedin-in {
+  line-height: inherit;
+  color: #050030;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  font-size: 2rem;
+}
+
+.header.far.fa-file {
+  line-height: inherit;
+  color: #050030;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  font-size: 2rem;
+}
+
+.header.fab.fa-medium-m {
+  line-height: inherit;
+  color: #050030;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  font-size: 2rem;
+}

@@ -1,0 +1,58 @@
+.portfolio-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.portfolio-content {
+  padding: 1.5rem;
+}
+
+.screen {
+  display: block;
+}
+
+.screen img {
+  display: block;
+  float: left;
+  width: 45%;
+  height: 45%;
+}
+
+#img1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+#img2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#heat {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+#replay {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  font-size: 1px;
+  line-height: 0;
+}

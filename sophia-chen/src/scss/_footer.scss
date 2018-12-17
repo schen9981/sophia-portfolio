@@ -1,0 +1,40 @@
+@import url("https://use.fontawesome.com/releases/v5.6.0/css/all.css");
+
+footer.footer {
+  background-color: #05022f;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .container {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  .list-inline {
+    margin-bottom: 2rem !important;
+    .list-inline-item.medium a{
+      margin-right: 0px !important;
+    }
+  }
+  .social-link {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem !important;
+    font-size: 1rem;
+    background-color: #a9edff;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: darken(#a9edff, 10%);
+      text-decoration: none;
+    }
+  }
+}
+
+.fab.fa-medium-m,
+.far.fa-envelope,
+.fab.fa-github,
+.fab.fa-linkedin-in,
+.far.fa-file {
+  line-height: inherit;
+  color: #050030;
+}
