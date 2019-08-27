@@ -6,7 +6,6 @@ import "./scss/stylish-portfolio.css";
 
 import Sidebar from "./components/sidebar";
 import Header from "./components/header";
-import AboutSection from "./components/about";
 import ServicesSections from "./components/services";
 import CalloutSection from "./components/callout";
 import PortfolioSection from "./components/portfolio";
@@ -20,7 +19,6 @@ class App extends React.Component {
       <div>
         <Sidebar />
         <Header />
-        <AboutSection />
         <PortfolioSection />
         <FooterSection />
       </div>

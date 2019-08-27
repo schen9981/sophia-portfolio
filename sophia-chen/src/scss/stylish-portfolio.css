@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cookie");
 @import url("https://use.fontawesome.com/releases/v5.6.0/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=News+Cycle");
-@import url("https://fonts.googleapis.com/css?family=Cookie");
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.6.0/css/all.css");
 body,
 html {
@@ -367,30 +367,27 @@ footer.footer {
   color: #050030; }
 
 .masthead {
-  background: url("./img/mountains.png") !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+  background: none !important;
+  background-color: #fdf496 !important;
   height: 100vh; }
 
-.masthead h1 {
-  font: 100 7em/1.2 'Cookie', Helvetica, sans-serif !important;
+.masthead h3 {
+  font: 100 3em/1.2 'Barlow', Helvetica, sans-serif !important;
   color: #05042e;
   text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2); }
 
 header.container {
   position: relative;
-  font-family: 'News Cycle', sans-serif !important;
+  margin-left: auto;
+  font-family: 'Barlow', sans-serif !important;
   vertical-align: middle; }
 
-.name-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  transform: translate(-50%, -50%); }
-  .name-content .mb-5 {
-    margin-bottom: 0 !important; }
+.about {
+  margin-top: 3rem;
+  width: 60%; }
+  .about p {
+    font-size: 1.1rem;
+    text-align: justify; }
 
 .header.far.fa-envelope {
   line-height: inherit;
@@ -434,7 +431,7 @@ a {
 
 body {
   background-color: #fdf496 !important;
-  font-family: 'News Cycle', sans-serif; }
+  font-family: 'Barlow', sans-serif; }
 
 .btn-primary {
   background-color: #fdf496 !important;

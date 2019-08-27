@@ -154,7 +154,7 @@ export default class PortfolioSection extends React.Component {
         <section className="content-section">
           <div className="container">
             <div className="content-section-heading text-center">
-              <h2 className="mb-5">Sample Projects</h2>
+              <h2 className="mb-5">design projects</h2>
             </div>
             <div className="row h-25">
                 {portfolioItems1.map((project, index) => (
