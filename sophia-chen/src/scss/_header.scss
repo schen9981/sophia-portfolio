@@ -4,7 +4,7 @@
 
 .masthead {
   background: none !important;
-  background-color: #fdf496 !important;
+  background-color: white !important;
   //background-position: center center !important;
   //background-repeat: no-repeat !important;
   //background-size: cover !important;
@@ -13,8 +13,8 @@
 
 .masthead h3 {
   font: 100 3em/1.2 'Barlow', Helvetica, sans-serif !important;
-  color: #05042e;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.2);
+  color: #236fa2;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
 header.container {
@@ -33,6 +33,10 @@ header.container {
     font-size: 1.1rem;
     text-align: justify;
   }
+}
+
+.links a {
+  color: #236fa2;
 }
 
 .header.far.fa-envelope {

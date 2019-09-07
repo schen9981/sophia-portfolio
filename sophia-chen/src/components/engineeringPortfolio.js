@@ -2,7 +2,7 @@ import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 import Modal from 'react-responsive-modal';
 import Project1 from './project1';
-import Project2 from './project2.js';
+import Project2 from './project2';
 import Project3 from './project3';
 import Project4 from './project4';
 import Project5 from './project5';
@@ -17,7 +17,7 @@ const modalstyles = {
     'background': "#dee2e65c",
   },
   modal: {
-    'background': "#fdf496",
+    'background': "white",
     'maxWidth': "80vw",
     'width': "100%",
     'borderRadius': "3px",
@@ -38,22 +38,23 @@ const modalstyles = {
 const portfolioItems1 = [
   {
     imgSrc: "./img/portfolio-1.jpg",
-    heading: "A Critique of VSCO",
-    description: "An analysis of the user interface and user experience of VSCO, a photo editing/journaling platform.",
+    heading: "Live Filtering of Bagel Gourmet Bagels",
+    description:
+      "A live filtering page built in React.js for Bagel Gourmet's bagels, using React components and state.",
     index: "openModal1"
   },
   {
     imgSrc: "./img/portfolio-1.jpg",
-    heading: "Eyetracking of Mental Happy",
+    heading: "Calmunity",
     description:
-      "A analysis of an interface design of an emerging startup using eyetracking technology.",
+      "A YHack 2018 project for a platform that fosters free and peaceful community sharing of feelings, supporting user to user interaction, journaling, and a positivity bot.",
     index: "openModal2"
   },
   {
     imgSrc: "./img/portfolio-1.jpg",
-    heading: "Live Filtering of Bagel Gourmet Bagels",
+    heading: "Guizilla",
     description:
-      "A live filtering page built in React.js for Bagel Gourmet's bagels, using React components and state.",
+      "An interactive GUI browser in Java, involving implementing client and server side with sockets, reflection, JavaFX events, and XML file parsing.",
     index: "openModal3"
   }
 ];
@@ -61,23 +62,22 @@ const portfolioItems1 = [
 const portfolioItems2 = [
   {
     imgSrc: "./img/portfolio-1.jpg",
-    heading: "A/B and User Testing of Taxi Platform",
+    heading: "Search",
     description:
-      "A qualitative and quantitative analysis of user's interaction with a redesign of a taxi-reserving platform.",
+      "An interactive  interactive search engine in Java that takes user text queries and returns most relevant documents using the PageRank algorithm.",
     index: "openModal4"
   },
   {
     imgSrc: "./img/portfolio-1.jpg",
-    heading: "Calmunity",
+    heading: "Genfit",
     description:
-      "A YHack 2018 project for a platform that fosters free and peaceful community sharing of feelings, supporting user to user interaction, journaling, and a positivity bot.",
+      "A virtual closet web app that improves closet visibility and generates personalized outfit suggestions.",
     index: "openModal5"
   },
   {
     imgSrc: "./img/portfolio-1.jpg",
-    heading: "Guizilla",
-    description:
-      "An interactive GUI browser in Java, involving implementing client and server side with sockets, reflection, JavaFX events, and XML file parsing.",
+    heading: "Maps",
+    description: "An interactive map GUI that features user pan/zoom, shortest route detection, and live traffic data updates.",
     index: "openModal6"
   }
 ];
@@ -85,9 +85,9 @@ const portfolioItems2 = [
 const portfolioItems3 = [
   {
     imgSrc: "./img/portfolio-1.jpg",
-    heading: "Search",
+    heading: "Autocorrect",
     description:
-      "An interactive  interactive search engine in Java that takes user text queries and returns most relevant documents using the PageRank algorithm.",
+      "An interactive GUI that generates autocorrected results based on user input.",
     index: "openModal7"
   },
   {
@@ -154,7 +154,7 @@ export default class PortfolioSection extends React.Component {
         <section className="content-section">
           <div className="container">
             <div className="content-section-heading text-center">
-              <h2 className="mb-5">design projects</h2>
+              <h2 className="mb-5">engineering projects</h2>
             </div>
             <div className="row h-25">
                 {portfolioItems1.map((project, index) => (

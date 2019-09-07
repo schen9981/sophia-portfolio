@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic%22");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css");
 @import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
-@import url("https://fonts.googleapis.com/css?family=Cookie");
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.6.0/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=News+Cycle");
 @import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
@@ -237,11 +237,11 @@ h6 {
   margin-bottom: 10px; }
 
 .img-fluid {
-  background-color: #fdf496; }
+  background-color: white; }
 
 .content-section h2 {
   color: #236fa2;
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Barlow', sans-serif !important;
   font-size: 2em; }
 
 @media (max-width: 1100px) {
@@ -368,13 +368,13 @@ footer.footer {
 
 .masthead {
   background: none !important;
-  background-color: #fdf496 !important;
+  background-color: white !important;
   height: 100vh; }
 
 .masthead h3 {
   font: 100 3em/1.2 'Barlow', Helvetica, sans-serif !important;
-  color: #05042e;
-  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2); }
+  color: #236fa2;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); }
 
 header.container {
   position: relative;
@@ -388,6 +388,9 @@ header.container {
   .about p {
     font-size: 1.1rem;
     text-align: justify; }
+
+.links a {
+  color: #236fa2; }
 
 .header.far.fa-envelope {
   line-height: inherit;
@@ -430,7 +433,7 @@ a {
     color: #155d74; }
 
 body {
-  background-color: #fdf496 !important;
+  background-color: white !important;
   font-family: 'Barlow', sans-serif; }
 
 .btn-primary {
