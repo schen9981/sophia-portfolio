@@ -3,11 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
-import createHistory from "history/createBrowserHistory";
+import {createBrowserHistory} from "history";
 
 type AppProps = {};
 
 type AppState = {};
+
+const history = createBrowserHistory();
 
 export default class App extends React.Component<AppProps, AppState> {
   constructor(props: AppProps) {
@@ -17,8 +19,9 @@ export default class App extends React.Component<AppProps, AppState> {
   }
 
   render() {
+    console.log(process.env);
     return (
-      <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
+      <Router history={history} basename="/">
           <Switch>
             <Route path='/about'>
               <div className="App">
@@ -30,7 +33,7 @@ export default class App extends React.Component<AppProps, AppState> {
                 <About />
               </div>
             </Route>
-            <Route path="/">
+            <Route exact path="/">
               <div className="App">
                 <Home />
               </div>

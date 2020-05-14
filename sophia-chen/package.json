@@ -43,7 +43,8 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.35",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "react-app-env": "^1.2.3"
   },
   "homepage": "http://schen9981.github.io/"
 }
