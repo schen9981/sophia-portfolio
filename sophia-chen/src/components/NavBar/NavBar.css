@@ -1,0 +1,11 @@
+.navbar-elem {
+  font-family: Nanum Myeongjo, serif;
+  color: #25504B !important;
+  font-size: calc(5px + 2vmin);
+}
+
+.navbar-elem:active, .navbar-elem:hover, .navbar-elem:focus{
+  font-family: Nanum Myeongjo, serif;
+  color: #25504B !important;
+  font-weight:bold;
+}

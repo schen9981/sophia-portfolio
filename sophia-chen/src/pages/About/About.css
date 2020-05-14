@@ -1,0 +1,40 @@
+html, body {
+  overflow: hidden;
+}
+
+.info {
+  height: 100%;
+  background-color: #F9F6F2;
+  overflow-y:hidden;
+  display: grid;
+  grid-template-columns: repeat(10, 10vw);
+  grid-template-rows: repeat(9, 11vh);
+  position: fixed;
+}
+
+.profile-pic {
+  z-index: 100;
+  grid-row-start: 3;
+  grid-row-end: 10;
+  grid-column-start: 7;
+  grid-column-end: 11;
+  position: relative;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.pink-circle {
+  z-index: 1;
+  background-color: #F3CABC;
+  border-radius: 100% 0 0 0;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  grid-column-start: 6;
+  grid-column-end: 11;
+}
