@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
-import { Nav }  from "react-bootstrap";
+import { Nav, NavItem }  from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
 import resumeFile from "../../assets/sophia-resume.pdf";
@@ -33,9 +34,15 @@ export default class NavBar extends React.Component<NavBarProps, NavBarState> {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="navbar-custom">
             <Nav className="ml-auto">
-              <Nav.Link className="navbar-elem" href="about">about</Nav.Link>
-              <Nav.Link className="ml-5 navbar-elem" href="work">work</Nav.Link>
-              <Nav.Link className="ml-5 navbar-elem" href={resumeFile} target="_blank">resume</Nav.Link>
+              <NavItem>
+                <Link className="navbar-elem" to="/about">about</Link>
+              </NavItem>
+              <NavItem>
+                <Link className="ml-5 navbar-elem" to="/work">work</Link>
+              </NavItem>
+              <NavItem >
+                <Link className="ml-5 navbar-elem" to={resumeFile} target="_blank">resume</Link>
+              </NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

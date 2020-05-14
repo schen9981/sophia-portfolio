@@ -21,7 +21,7 @@ export default class App extends React.Component<AppProps, AppState> {
   render() {
     console.log(process.env);
     return (
-      <Router history={history} basename="/">
+      <Router history={history}>
           <Switch>
             <Route path='/about'>
               <div className="App">
