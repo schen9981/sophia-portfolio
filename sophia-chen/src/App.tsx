@@ -20,19 +20,19 @@ export default class App extends React.Component<AppProps, AppState> {
 
   render() {
     return (
-      <Router history={history} basename={process.env.PUBLIC_URL}>
+      <Router history={history}>
           <Switch>
-            <Route path="/about">
+            <Route path={process.env.PUBLIC_URL + '/about'}>
               <div className="App">
                 <About />
               </div>
             </Route>
-            <Route path="/work">
+            <Route path={process.env.PUBLIC_URL + '/work'}>
               <div className="App">
                 <About />
               </div>
             </Route>
-            <Route path="/">
+            <Route path={process.env.PUBLIC_URL}>
               <div className="App">
                 <Home />
               </div>
