@@ -26,8 +26,11 @@ export default class About extends React.Component<AboutProps, AboutState> {
           <div className="pink-circle">
           </div>
 
-          <div className="name">
-            <h1> SOPHIA CHEN </h1>
+          <div className="welcome-header">
+            <h4> I am a <strong>student</strong>,
+            <strong>tech enthusiast</strong>,
+            <strong>amateur designer</strong>, and an
+            <strong>advid coffee drinker</strong>. </h4>
           </div>
 
         </div>
