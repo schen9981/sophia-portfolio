@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import { createBrowserHistory } from "history";
@@ -37,6 +37,7 @@ export default class App extends React.Component<AppProps, AppState> {
                 <Home />
               </div>
             </Route>
+            <Route exact path="/schen9981.github.io" render={() => <Redirect to="/" />} />
           </Switch>
       </Router>
     );

@@ -23,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +45,5 @@
     "@types/react": "^16.9.35",
     "gh-pages": "^2.2.0"
   },
-  "homepage": "http://schen9981.github.io/schen9981.github.io"
+  "homepage": "http://schen9981.github.io/"
 }
