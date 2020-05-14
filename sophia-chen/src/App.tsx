@@ -20,7 +20,7 @@ export default class App extends React.Component<AppProps, AppState> {
 
   render() {
     return (
-      <Router history={history}>
+      <Router history={history} basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path="/about">
               <div className="App">
