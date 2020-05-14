@@ -32,12 +32,11 @@ export default class App extends React.Component<AppProps, AppState> {
                 <About />
               </div>
             </Route>
-            <Route path="">
+            <Route path="/">
               <div className="App">
                 <Home />
               </div>
             </Route>
-            <Route exact path="/schen9981.github.io" render={() => <Redirect to="/" />} />
           </Switch>
       </Router>
     );
