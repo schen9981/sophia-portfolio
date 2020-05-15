@@ -19,7 +19,7 @@ export default class Home extends React.Component<HomeProps, HomeState> {
       <div className="Home">
         <div className="green-circle">
         </div>
-        <NavBar />
+        <NavBar activePage={null}/>
         <div className="welcome">
 
           <div className="profile-pic">

@@ -13,15 +13,50 @@ html, body {
 }
 
 .welcome-header {
+  padding-left: 5vw;
   grid-row-start: 2;
   grid-row-end: 3;
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 8;
 }
 
 .welcome-header h4 {
   font-family: Nanum Gothic, sans-serif;
   color: #8BB0A1;
+}
+
+.emphasis {
+  color: #25504B;
+}
+
+.more-info {
+  padding-left: 5vw;
+  z-index: 100;
+  grid-row-start: 3;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 6
+}
+
+.more-info h5 {
+  font-family: Nanum Gothic, sans-serif;
+  color: #8BB0A1;
+}
+
+.socials {
+  margin-top: 5vh;
+}
+
+.social-link {
+  font-family: Nanum Gothic, sans-serif;
+  color: #25504B;
+  padding-right: 2em;
+}
+
+.social-link:hover {
+    color: #25504B;
+    font-weight:bold;
+    text-decoration: none;
 }
 
 .profile-pic {

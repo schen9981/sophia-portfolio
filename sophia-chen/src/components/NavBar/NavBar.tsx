@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import resumeFile from "../../assets/sophia-resume.pdf";
 
 type NavBarProps = {
-
+  activePage: string | null
 };
 
 type NavBarState = {
@@ -35,13 +35,13 @@ export default class NavBar extends React.Component<NavBarProps, NavBarState> {
           <Navbar.Collapse id="responsive-navbar-nav" className="navbar-custom">
             <Nav className="ml-auto">
               <NavItem>
-                <Link className="navbar-elem" to="/about">about</Link>
+                <Link className={"navbar-elem" + (this.props.activePage == 'about' ? " active" : "")} to="/about">about</Link>
               </NavItem>
               <NavItem>
-                <Link className="ml-5 navbar-elem" to="/work">work</Link>
+                <Link className={"ml-5 navbar-elem" + (this.props.activePage == 'work' ? " active" : "")} to="/work">work</Link>
               </NavItem>
               <NavItem >
-                <Link className="ml-5 navbar-elem" to={resumeFile} target="_blank">resume</Link>
+                <Link className={"ml-5 navbar-elem" + (this.props.activePage == 'resume' ? " active" : "")}to={resumeFile} target="_blank">resume</Link>
               </NavItem>
             </Nav>
           </Navbar.Collapse>

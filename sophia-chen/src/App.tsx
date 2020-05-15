@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
+import Work from "./pages/Work/Work";
 import {createBrowserHistory} from "history";
 
 type AppProps = {};
@@ -19,7 +20,6 @@ export default class App extends React.Component<AppProps, AppState> {
   }
 
   render() {
-    console.log(process.env);
     return (
       <Router history={history}>
           <Switch>
@@ -30,7 +30,7 @@ export default class App extends React.Component<AppProps, AppState> {
             </Route>
             <Route path='/work'>
               <div className="App">
-                <About />
+                <Work />
               </div>
             </Route>
             <Route exact path="/">
