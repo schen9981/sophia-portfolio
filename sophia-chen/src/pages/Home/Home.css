@@ -1,8 +1,4 @@
-html, body {
-  overflow: hidden;
-}
-
-.welcome {
+.welcome-circles {
   height: 100%;
   background-color: #F9F6F2;
   overflow-y:hidden;
@@ -12,21 +8,36 @@ html, body {
   position: fixed;
 }
 
-.profile-pic {
-  z-index: 100;
-  grid-row-start: 3;
-  grid-row-end: 10;
-  grid-column-start: 7;
-  grid-column-end: 11;
-  position: relative;
+@media screen and (max-width: 768px) {
+  .pink-circle {
+    grid-row-start: 6 !important;
+    grid-column-start: 4 !important;
+  }
+
+  .welcome-circles .red-circle {
+    visibility: collapse;
+  }
+
+  .profile-pic {
+    width: 50% !important;
+  }
 }
 
-.profile-pic img {
-  width: 100%;
+@media screen and (min-width: 1200px) {
+  .welcome-circles .red-circle {
+    grid-row-start: 7;
+  }
+}
+
+.profile-pic  {
+  width: 35%;
   height: auto;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position:fixed;
+  right:0;
+  bottom:0;
+  margin:0;
+  padding:0;
+  z-index: 100;
 }
 
 .green-circle {
@@ -43,7 +54,7 @@ html, body {
   z-index: 1;
   background-color: #F3CABC;
   border-radius: 100% 0 0 0;
-  grid-row-start: 2;
+  grid-row-start: 4;
   grid-row-end: 10;
   grid-column-start: 6;
   grid-column-end: 11;
@@ -51,12 +62,9 @@ html, body {
 
 .red-circle {
   background-color: #CC402A;
-  height: 20vw;
-  width: 40vw;
   border-top-left-radius: 20vw;
   border-top-right-radius: 20vw;
-  margin-top: 5vh;
-  grid-row-start: 7;
+  grid-row-start: 8;
   grid-row-end: 10;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -67,6 +75,7 @@ html, body {
   grid-row-end: 6;
   grid-column-start: 1;
   grid-column-end: 7;
+  padding-left: 5em;
 }
 
 .name h1 {
@@ -75,4 +84,10 @@ html, body {
   margin-bottom: 0;
   color: #25504B;
   font-weight: bold;
+}
+
+@media screen and (max-width: 375px) {
+  .name h1 {
+    font-size: 3em;
+  }
 }

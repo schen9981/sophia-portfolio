@@ -1,28 +1,17 @@
-html, body {
-  overflow: hidden;
+@media screen and (min-width: 768px) {
+  .background {
+    background-color: #F9F6F2;
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(9, 11vh);
+  }
 }
 
-.info {
-  height: 100%;
-  background-color: #F9F6F2;
-  overflow-y:hidden;
-  display: grid;
-  grid-template-columns: repeat(10, 10vw);
-  grid-template-rows: repeat(9, 11vh);
+.background {
   position: fixed;
-}
+  overflow: visible;
+  background-color: #F9F6F2;
 
-.welcome-header {
-  padding-left: 5vw;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 8;
-}
-
-.welcome-header h4 {
-  font-family: Nanum Gothic, sans-serif;
-  color: #8BB0A1;
 }
 
 .emphasis {
@@ -30,21 +19,39 @@ html, body {
 }
 
 .more-info {
-  padding-left: 5vw;
+  margin-top: 3em;
+  padding-left: 3em;
+  padding-bottom: 3em;
   z-index: 100;
-  grid-row-start: 3;
-  grid-row-end: 8;
-  grid-column-start: 1;
-  grid-column-end: 6
+  position: fixed;
+  width: 50vw;
+  padding-top: 3em;
 }
 
-.more-info h5 {
+@media screen and (max-width: 768px) {
+  .more-info {
+    width: 80vw;
+    position: relative;
+    height: 100vh;
+  }
+
+  .profile-pic-about {
+    visibility: hidden;
+  }
+
+  .pink-circle-about {
+    visibility: hidden;
+  }
+}
+
+.more-info p {
   font-family: Nanum Gothic, sans-serif;
   color: #8BB0A1;
+  font-size: 105%;
 }
 
 .socials {
-  margin-top: 5vh;
+  margin-top: 3em;
 }
 
 .social-link {
@@ -59,28 +66,22 @@ html, body {
     text-decoration: none;
 }
 
-.profile-pic {
-  z-index: 100;
-  grid-row-start: 3;
-  grid-row-end: 10;
-  grid-column-start: 7;
-  grid-column-end: 11;
-  position: relative;
-}
-
-.profile-pic img {
-  width: 100%;
+.profile-pic-about {
+  width: 35%;
   height: auto;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position:fixed;
+  right:0;
+  bottom:0;
+  margin:0;
+  padding:0;
+  z-index: 100;
 }
 
-.pink-circle {
+.pink-circle-about {
   z-index: 1;
   background-color: #F3CABC;
   border-radius: 100% 0 0 0;
-  grid-row-start: 2;
+  grid-row-start: 4;
   grid-row-end: 10;
   grid-column-start: 6;
   grid-column-end: 11;

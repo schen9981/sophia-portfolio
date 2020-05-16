@@ -32,7 +32,7 @@ export default class NavBar extends React.Component<NavBarProps, NavBarState> {
           }}
         >
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" className="navbar-custom">
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <NavItem>
                 <Link className={"navbar-elem" + (this.props.activePage == 'about' ? " active" : "")} to="/about">about</Link>

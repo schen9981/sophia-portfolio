@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cbb7c12.chunk.css",
-    "main.js": "/static/js/main.bfbf0f30.chunk.js",
-    "main.js.map": "/static/js/main.bfbf0f30.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.add77068.js",
-    "runtime-main.js.map": "/static/js/runtime-main.add77068.js.map",
+    "main.css": "/static/css/main.70b93747.chunk.css",
+    "main.js": "/static/js/main.24562b19.chunk.js",
+    "main.js.map": "/static/js/main.24562b19.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9ad13e3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9ad13e3e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1bf9f536.chunk.js": "/static/js/2.1bf9f536.chunk.js",
-    "static/js/2.1bf9f536.chunk.js.map": "/static/js/2.1bf9f536.chunk.js.map",
+    "static/js/2.5d22f572.chunk.js": "/static/js/2.5d22f572.chunk.js",
+    "static/js/2.5d22f572.chunk.js.map": "/static/js/2.5d22f572.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7086292f759eba1db760b4c3f105860b.js": "/precache-manifest.7086292f759eba1db760b4c3f105860b.js",
+    "precache-manifest.adc43fa4513eb718bd53236009bb902a.js": "/precache-manifest.adc43fa4513eb718bd53236009bb902a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.2cbb7c12.chunk.css.map": "/static/css/main.2cbb7c12.chunk.css.map",
-    "static/js/2.1bf9f536.chunk.js.LICENSE.txt": "/static/js/2.1bf9f536.chunk.js.LICENSE.txt",
+    "static/css/main.70b93747.chunk.css.map": "/static/css/main.70b93747.chunk.css.map",
+    "static/js/2.5d22f572.chunk.js.LICENSE.txt": "/static/js/2.5d22f572.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/NanumMyeongjo-Regular.afce7d51.ttf",
     "static/media/cropped.png": "/static/media/cropped.f4fc06dd.png",
-    "static/media/sophia-resume.pdf": "/static/media/sophia-resume.76bd66c2.pdf"
+    "static/media/sophia-resume.pdf": "/static/media/sophia-resume.86860fa2.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.add77068.js",
+    "static/js/runtime-main.9ad13e3e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1bf9f536.chunk.js",
-    "static/css/main.2cbb7c12.chunk.css",
-    "static/js/main.bfbf0f30.chunk.js"
+    "static/js/2.5d22f572.chunk.js",
+    "static/css/main.70b93747.chunk.css",
+    "static/js/main.24562b19.chunk.js"
   ]
 }

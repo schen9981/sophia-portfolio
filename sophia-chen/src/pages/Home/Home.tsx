@@ -20,12 +20,10 @@ export default class Home extends React.Component<HomeProps, HomeState> {
         <div className="green-circle">
         </div>
         <NavBar activePage={null}/>
-        <div className="welcome">
 
-          <div className="profile-pic">
-            <img src={profilePic}></img>
-          </div>
+        <img className="profile-pic" src={profilePic}></img>
 
+        <div className="welcome-circles">
           <div className="pink-circle">
           </div>
 
@@ -35,7 +33,6 @@ export default class Home extends React.Component<HomeProps, HomeState> {
           <div className="name">
             <h1> SOPHIA CHEN </h1>
           </div>
-
         </div>
       </div>
     );
