@@ -26,22 +26,18 @@ export default class NavBar extends React.Component<NavBarProps, NavBarState> {
         <Navbar
           collapseOnSelect
           expand="lg"
-          style={{
-            alignItems: "center",
-            paddingLeft: "11vw",
-          }}
         >
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <NavItem>
                 <Link className={"navbar-elem" + (this.props.activePage == 'about' ? " active" : "")} to="/about">about</Link>
               </NavItem>
               <NavItem>
-                <Link className={"ml-5 navbar-elem" + (this.props.activePage == 'work' ? " active" : "")} to="/work">work</Link>
+                <Link className={"navbar-elem" + (this.props.activePage == 'work' ? " active" : "")} to="/work">work</Link>
               </NavItem>
               <NavItem >
-                <Link className={"ml-5 navbar-elem" + (this.props.activePage == 'resume' ? " active" : "")}to={resumeFile} target="_blank">resume</Link>
+                <Link className={"navbar-elem" + (this.props.activePage == 'resume' ? " active" : "")}to={resumeFile} target="_blank">resume</Link>
               </NavItem>
             </Nav>
           </Navbar.Collapse>

@@ -1,7 +1,7 @@
 .navbar-elem {
   font-family: Nanum Myeongjo, serif;
   color: #25504B !important;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(7px + 2vmin);
 }
 
 .navbar-elem:active, .navbar-elem:hover, .navbar-elem:focus{
@@ -9,4 +9,29 @@
   color: #25504B !important;
   font-weight:bold;
   text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-elem {
+    padding-left: 1.5em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    margin-right: 5em !important;
+  }
+}
+
+.navbar-collapse {
+  z-index: 1000;
+}
+
+.nav-item {
+  width: fit-content;
+}
+
+.navbar-nav {
+  width: fit-content;
+  margin-bottom: 1em;
 }

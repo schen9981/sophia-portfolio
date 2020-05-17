@@ -19,20 +19,18 @@
 }
 
 .more-info {
-  margin-top: 3em;
   padding-left: 3em;
   padding-bottom: 3em;
   z-index: 100;
   position: fixed;
   width: 50vw;
-  padding-top: 3em;
+  padding-top: 2em;
 }
 
 @media screen and (max-width: 768px) {
   .more-info {
     width: 80vw;
     position: relative;
-    height: 100vh;
   }
 
   .profile-pic-about {
