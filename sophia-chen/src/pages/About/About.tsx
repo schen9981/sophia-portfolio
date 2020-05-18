@@ -48,7 +48,9 @@ export default class About extends React.Component<AboutProps, AboutState> {
           <p> Currently a returning intern in the <span className="emphasis">
           Natural Language Understanding and Experiences</span> team of
           <span className="emphasis"> Bing Engineering </span>
-          at <span className="emphasis">Microsoft</span>.</p>
+          at <span className="emphasis">Microsoft</span>. Last summer,
+          I worked full-stack to design, develop, and deploy new weather map
+          answer in Bing search.</p>
 
           <br></br>
 

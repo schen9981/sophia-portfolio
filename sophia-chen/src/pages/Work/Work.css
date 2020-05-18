@@ -1,8 +1,11 @@
+$animate: all 0.2s ease-in-out;
+
 body, html {
   overflow-y: scroll;
 }
 
 .project-welcome {
+  padding-top: 2em;
   text-align: center;
 }
 
@@ -11,6 +14,7 @@ body, html {
 }
 
 .portfolio-content {
+  padding-bottom: 2em;
   padding-top: 2vw;
   padding-left: 5vw;
   padding-right: 5vw;
@@ -94,18 +98,99 @@ body, html {
 
 .project-display {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   box-shadow:  3px 3px 5px 3px #ccc;
 }
 
+.project-display p {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: Nanum Gothic, serif;
+  color: #FFFFFF;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-size: 0.5em;
+}
+
 .project-display h2 {
+  padding-left: 5px;
+  padding-right: 5px;
   font-family: Nanum Myeongjo, serif;
   color: #FFFFFF;
   margin-bottom: 0;
+  font-size: 1em;
 }
 
-.project-display h2:hover {
+
+@media screen and (min-width: 768px) {
+  .project-display p {
+    font-family: Nanum Gothic, serif;
+    color: #FFFFFF;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .project-display h2 {
+    font-family: Nanum Myeongjo, serif;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .project-display p {
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project-display h2 {
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-display p {
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project-display h2 {
+    font-size: 2.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+.project-display:hover > h2{
   font-weight: bold;
+}
+
+.light-green:hover {
+  box-shadow:  0px 0px 10px 10px #8BB0A18C;
+}
+
+.light-pink:hover {
+  box-shadow:  0px 0px 10px 10px #F3CABC8C;
+}
+
+.red:hover {
+  box-shadow:  0px 0px 10px 10px #CC402A8C;
+}
+
+.green:hover {
+  box-shadow:  0px 0px 10px 10px #25504B8C;
 }

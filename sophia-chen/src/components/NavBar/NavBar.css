@@ -4,7 +4,14 @@
   font-size: calc(7px + 2vmin);
 }
 
-.navbar-elem:active, .navbar-elem:hover, .navbar-elem:focus{
+.navbar-elem:hover, .navbar-elem:focus{
+  font-family: Nanum Myeongjo, serif;
+  color: #25504B !important;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+.selected {
   font-family: Nanum Myeongjo, serif;
   color: #25504B !important;
   font-weight:bold;

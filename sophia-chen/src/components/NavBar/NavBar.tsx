@@ -1,10 +1,11 @@
 import React from "react";
 import "./NavBar.css";
 import { Nav, NavItem }  from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { NavLink  } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
 import resumeFile from "../../assets/sophia-resume.pdf";
+import { useLocation } from 'react-router-dom';
 
 type NavBarProps = {
   activePage: string | null
@@ -31,13 +32,13 @@ export default class NavBar extends React.Component<NavBarProps, NavBarState> {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <NavItem>
-                <Link className={"navbar-elem" + (this.props.activePage == 'about' ? " active" : "")} to="/about">about</Link>
+                <NavLink exact className="navbar-elem" activeClassName="selected" to="/about">about</NavLink>
               </NavItem>
               <NavItem>
-                <Link className={"navbar-elem" + (this.props.activePage == 'work' ? " active" : "")} to="/work">work</Link>
+                <NavLink exact className="navbar-elem" activeClassName="selected" to="/work">work</NavLink>
               </NavItem>
               <NavItem >
-                <Link className={"navbar-elem" + (this.props.activePage == 'resume' ? " active" : "")}to={resumeFile} target="_blank">resume</Link>
+                <NavLink exact className="navbar-elem" activeClassName="selected" to={resumeFile} target="_blank">resume</NavLink>
               </NavItem>
             </Nav>
           </Navbar.Collapse>
