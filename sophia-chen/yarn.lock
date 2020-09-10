@@ -1020,6 +1020,14 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/joshk.react-spinners-css.facebook@^1.2.1":
+  version "1.2.1"
+  resolved "https://node.bit.dev/joshk.react-spinners-css.facebook/-/joshk.react-spinners-css.facebook-1.2.1.tgz#bf1dfb1403a4cfa5a65a866ae4ec120de0b41abf"
+  integrity sha1-vx37FAOkz6WmWoZq5OwSDeC0Gr8=
+  dependencies:
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -8913,6 +8921,14 @@ react-scripts@3.4.1:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react-spinners-css@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-spinners-css/-/react-spinners-css-1.2.2.tgz#abbcf609e6b459c89e47f3994d8ef85d1c56dc75"
+  integrity sha512-s1qKaGTpWSlrMHRr5Q/h0kV2gPdNqcQizKyaShQlqPwICX1j1vfpRnRpMZwbVvr4XyrcfL77jTpipAhh/d7VwA==
+  dependencies:
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
 
 react-transition-group@^4.0.0:
   version "4.4.1"

@@ -2,17 +2,19 @@ import React from 'react';
 import './Home.css'
 import profilePic from "../../assets/cropped.png";
 import NavBar from '../../components/NavBar/NavBar';
+import { Ripple } from 'react-spinners-css';
 
 type HomeProps = {};
 
-type HomeState = {};
+type HomeState = {
+  loading: boolean
+};
 
 export default class Home extends React.Component<HomeProps, HomeState> {
   constructor(props: HomeProps) {
     super(props);
-    this.state = {
-    };
   }
+
 
   render() {
     return (

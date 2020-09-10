@@ -26,38 +26,41 @@ export default class About extends React.Component<AboutProps, AboutState> {
 
         </div>
         <div className='more-info'>
-          <p> Hey! Thanks for stopping by! </p>
 
-          <br></br>
-
-          <p> I’m Sophia, a rising senior studying <span className="emphasis">
-          Computer Science </span> and <span className="emphasis">
-          Applied Mathematics </span> at <span className="emphasis">
-          Brown University</span>. </p>
-
-          <br></br>
-
-          <p> My passion is to create products that help
-          improve the lives of everyday people. My interests lie
+          <p> hi! i’m sophia, a rising senior studying <span className="emphasis">
+          computer science </span> and <span className="emphasis">
+          applied mathematics </span> at <span className="emphasis">
+          Brown University</span>. my interests lie
           particularly in <span className="emphasis">software engineering
           </span>, <span className="emphasis">machine learning</span>,
-          and <span className="emphasis">UI/UX design</span>.</p>
+          and <span className="emphasis">ui/ux design</span>.</p>
 
           <br></br>
 
-          <p> Currently a returning intern in the <span className="emphasis">
-          Natural Language Understanding and Experiences</span> team of
-          <span className="emphasis"> Bing Engineering </span>
-          at <span className="emphasis">Microsoft</span>. Last summer,
-          I worked full-stack to design, develop, and deploy new weather map
-          answer in Bing search.</p>
+          <p> this summer i was a software engineering intern in the
+          <span className="emphasis"> answers and segments</span> team of
+          <span className="emphasis"> Bing WebXT </span>
+          at <span className="emphasis">Microsoft</span>, working on a query
+          reformulation natural language understanding project for improving
+          the question-answering experience for non-triggered queries.</p>
 
           <br></br>
 
-          <p> Previously at <span className="emphasis">
-          National Center for Atmospheric Research</span>,
-          working on high performance computing, statistical modeling,
-          data visualization, and front-end software engineering.</p>
+          <p> formerly an intern <span className="emphasis">Microsoft</span> in the
+          <span className="emphasis"> natural language understanding and
+          experiences</span> team of <span className="emphasis">Bing Engineering
+          </span>, and an engineering intern at the <span className="emphasis">
+          National Center for Atmospheric Research</span>.</p>
+
+          <br></br>
+
+          <p> at school, I am a member of <span className="emphasis"> Hack@Brown
+          </span>, to organize Brown's annual hackathon of 400+ participants,
+          formerly as a developer on the <span className="emphasis">development team
+          </span>, and now <span className="emphasis">codirector </span>
+          of a team of 40+ members. i also am a <span className="emphasis">
+          teaching assistant</span> in the computer science department for
+          ui/ux and software engineering.</p>
 
           <div className="socials">
             <a className="social-link" href="https://www.linkedin.com/in/sophiachen9981/">linkedin</a>
