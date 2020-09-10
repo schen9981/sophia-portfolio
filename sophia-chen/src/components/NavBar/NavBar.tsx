@@ -4,7 +4,7 @@ import { Nav, NavItem }  from "react-bootstrap";
 import { NavLink  } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
-import resumeFile from "../../assets/sophia-resume.pdf";
+import resumeFile from "../../assets/sophiachen-resume.pdf";
 import { useLocation } from 'react-router-dom';
 
 type NavBarProps = {
